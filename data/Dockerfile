@@ -1,0 +1,2 @@
+env: #{ENV}
+service: #{SERVICE}
