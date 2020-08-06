@@ -10,7 +10,7 @@ service = sys.argv[2]
 print('dockerfile-creator run')
 print('dockerfile-creator param - env: {}, service: {}'.format(env, service))
 
-file = open('../data/Dockerfile', 'r')
+file = open('./Dockerfile', 'r')
 fileData = file.read()
 file.close()
 
